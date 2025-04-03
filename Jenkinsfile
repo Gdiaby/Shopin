@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Assurez-vous que le nom ici correspond à l'installation Maven configurée dans Jenkins
-        maven 'Maven 3.9.6'
+        maven 'Maven Home'
     }
     stages {
         stage('Checkout') {
