@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Récupérer le code source du dépôt GitHub
-                git 'https://github.com/apiTestUserr/Devops_InternetHerokuapp.git'
+                git 'https://github.com/Gdiaby/Shopin.git'
             }
         }
         stage('Test') {
