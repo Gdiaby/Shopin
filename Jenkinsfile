@@ -15,7 +15,7 @@ pipeline {
             steps {
                 // Exécuter les tests avec Maven
                 echo 'Running tests...'
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
     }
